@@ -138,7 +138,7 @@ a:hover, .btn:hover {
 }
 
 .dropdown-menu.open {
-    max-height: 300px;
+    max-height: 500px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -160,6 +160,7 @@ a:hover, .btn:hover {
 .hamburger-icon span:first-child {
     opacity: 1;
 }
+
 .hamburger-icon span:first-child {
     transform: none;
 }
