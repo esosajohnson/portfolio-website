@@ -42,18 +42,31 @@ html, body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #desktop-nav {
     display: none;
   }
 
   #hamburger-nav {
     display: flex;
-    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 0.5rem 3rem;
+    justify-content: space-between; /* Logo left, icon right */
+    align-items: center;
+    z-index: 1000;
+    background: white; /* Optional for visibility */
   }
 
+  .hamburger-menu {
+    padding-right: 6.5rem;
+  }
+
+
   #profile {
+    margin-top: 80px;
     padding: 2rem 1rem;
     min-height: 70vh;
     height: auto;
