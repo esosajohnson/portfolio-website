@@ -55,9 +55,14 @@ nav, .nav-links {
 }
 
 nav {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 7vh;
+    padding: 0.5rem 10rem;
+}
+
+.nav-links a {
+    padding: 0 1rem;
 }
 
 .nav-links {
@@ -339,6 +344,8 @@ section {
     margin-top: 2rem;
     flex-direction: row;
     gap: 2rem;
+    margin: 0 auto;
+    padding: 0 1rem;
     flex-wrap: wrap;
     margin-bottom: 2rem;
 }
@@ -415,6 +422,7 @@ section {
     gap: 1rem;
     max-width: 1000px;
     margin: 2rem auto 0 auto;
+    padding: 0 2rem;
 }
 
 .skill-item {
@@ -449,6 +457,7 @@ section {
     font-weight: 400;
     margin-bottom: 1.5rem;
     max-width: auto;
+    padding: 0 1rem;
 }
 
 #know-more .btn {
