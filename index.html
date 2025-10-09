@@ -12,11 +12,13 @@
     <body>
         <nav id="desktop-nav">
             <div class="logo">
-                <img src="./assets/letters.png" alt="Logo" class="logo-img">
+                <a href="/" id="logo-link">
+                    <img src="./assets/letters.png" alt="Logo" class="logo-img">
+                </a>
             </div>
             <div>
                 <ul class="nav-links">
-                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/" class="active" id="home-link">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -24,7 +26,9 @@
             </div>
         </nav>
         <nav id="hamburger-nav">
-            <img src="./assets/letters.png" alt="Logo" class="logo-img">
+            <a href="/" id="mobile-logo-link">
+                <img src="./assets/letters.png" alt="Logo" class="logo-img">
+            </a>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -32,7 +36,7 @@
                     <span></span>
                 </div>
                 <div class="dropdown-menu">
-                    <li><a class="active" href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a class="active" href="/" id="mobile-home-link" onclick="toggleMenu()">Home</a></li>
                     <li><a href="about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
