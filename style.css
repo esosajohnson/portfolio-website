@@ -83,6 +83,24 @@ a:hover, .btn:hover {
     text-underline-offset: 1rem;
 }
 
+.nav-links a.active {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    font-weight: 600;
+}
+
+.dropdown-menu a.active {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    font-weight: 600;
+}
+
 .logo img {
     height: 80px;
 }
@@ -172,8 +190,6 @@ a:hover, .btn:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
-
-
 
 /* SECTION STYLES */
 
@@ -525,4 +541,71 @@ section {
 .contact-me .btn {
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
+}
+
+/* ABOUT PAGE STYLES */
+.profile-pic_about {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic_about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.profile-info_about h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-info_about {
+    text-align: center;
+    padding: 0 20rem;
+}
+
+.profile-desc-text {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+
+.profile-desc-text_2 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.profile-highlights {
+    text-align: flex-start;
+    padding: 0 20rem;
+    margin-top: 2rem;
+}
+
+.profile-highlights h2,
+.skills-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.profile-highlights ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
