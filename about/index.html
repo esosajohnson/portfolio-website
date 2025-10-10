@@ -4,10 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Esosa Johnson</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mediaqueries.css">
+    <link rel="preload" as="image" href="../assets/logo2.png">
+    <link rel="preload" as="image" href="../assets/letters.png">
 </head>
 
-<body>    
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <img src="../assets/letters.png" alt="Logo" class="logo-img" onclick="location.href='../index.html'"></img>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="/" id="home-link">Home</a></li>
+                <li><a class="active" id="about-link" href="/about/">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <a href="/" id="logo-link">
+            <img src="../assets/letters.png" alt="Logo" class="logo-img">
+        </a>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="dropdown-menu">
+                <li><a href="/" id="home-link" onclick="toggleMenu()">Home</a></li>
+                <li><a class="active" id="mobile-about-link" href="/about/" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+        
+
+    <section id="about-detailed">
+        <div class="profile-pic_about">
+            <img src="../assets/logo2.png" alt="Profile Picture">
+        </div>
+        <div class="profile-info_about">
+            <h1>About Me</h1>
+            <p class="profile-desc-text">
+                I'm Esosa, a software engineer who cares about scalability, security, and efficiency.
+            </p>
+            <p class="profile-desc-text_2">
+                I am a passionate and driven graduate software and embedded systems engineer with a First Class Honours degree in Computer Hardware and Software Engineering.
+                My experience spans from building software applications in C#, Python, and Java to designing and testing embedded systems.
+                I enjoy solving complex problems, creating efficient solutions, and continuously learning new technologies.
+            </p>
+            <p class="profile-desc-text_2">
+                Outside of tech, I express my creativity through photography, bringing the same curiosity and attention to detail to everything I do.
+            </p>
+        </div>
+        <div class="btn-container_about">
+            <button class="btn btn-primary" onclick="location.href='#projects'">View My Work</button>
+            <button class="btn btn-secondary" onclick="location.href='https://www.linkedin.com/in/esosa-johnson/'">Connect on LinkedIn</button>
+        </div>
+        <div class="profile-highlights">
+            <h2>Highlights</h2>
+            <ul>
+                <li>First Class Honours in Computer Hardware & Software Engineering.</li>
+                <li>Experience in C#, Python, and C/C++, with practical exposure to frameworks like .NET and embedded microcontroller development.</li>
+                <li>Embedded systems experience with Arduino, PIC microcontrollers, UART/I²C protocols, and Linux environments.</li>
+                <li>Proficient in SQL, Git, and GitHub for version control and collaboration.</li>
+                <li>Strong teamwork and problem-solving skills and a passion for learning new technologies and tools.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="skills" class="skills-container_about">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-item">C#</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">C/C++</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">HTML & CSS</div>
+            <div class="skill-item">.NET</div>
+            <div class="skill-item">Embedded Systems</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">Machine Learning</div>
+        </div>
+    </section>
+    <footer id="contact">
+        <hr>
+        <div class="footer-content">
+            <div class="rights">
+                <h3 class="footer-title">Esosa M. Johnson Ikponmwosa</h3>
+                <p class="footer-description">Software Engineer</p>
+                <p class="footer-location">Based in the UK</p>
+                <p class="footer-note">&copy; 2025 Esosa Johnson</p>
+            </div>
+            <div class="footer-social-links">
+                <h3>Connect with Me</h3>
+                <div class="footer-social-icons">
+                    <img src="../assets/github.png" alt="GitHub Icon" class="social-icon" onclick="location.href='https://github.com/esosajohnson'">
+                    <img src="../assets/linkedin.png" alt="LinkedIn Icon" class="social-icon" onclick="location.href='https://www.linkedin.com/in/esosa-johnson/'">
+                    <img src="../assets/email.png" alt="Email Icon" class="social-icon" onclick="location.href='mailto:esosajohnson93@gmail.com'">
+                </div>
+            </div>
+            <div class="contact-me">
+                <h3>Contact Me</h3>
+                <button class="btn btn-primary" onclick="location.href='#contact'">Get In Touch</button>
+            </div>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            const aboutPic = document.querySelector('.profile-pic_about img');
+            if (aboutPic) {
+            aboutPic.classList.add('loaded');
+            }
+        });
+    </script>
+
 </body>
 </html>
