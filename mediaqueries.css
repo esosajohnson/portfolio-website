@@ -149,10 +149,6 @@ html, body {
     padding: 0 1rem;
   }
 
-  .skill-item {
-    width: 80px;
-    height: 80px;
-  }
 
   .know-more-content {
     padding: 0 1rem;
@@ -185,5 +181,73 @@ html, body {
 
   .contact-me h3 {
     text-align: center;
+  }
+
+  #about-detailed {
+    margin-top: 80px;
+  }
+
+  #about-detailed .profile-desc-text {
+    font-size: 1.2rem;
+  }
+
+  #about-detailed .profile-desc-text_2 {
+    font-size: 1.1rem;
+  }
+
+  .profile-pic_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px; /* reserve space */
+  }
+
+.profile-pic_about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+
+.profile-pic_about img.loaded {
+    opacity: 1;
+  }
+
+
+  .profile-info_about {
+    padding: 0 1.5rem;
+  }
+
+  .btn-container_about {
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn-container_about button {
+    font-size: 1.2rem;
+  }
+
+  .profile-highlights {
+    padding: 0 1rem;
+  }
+
+  .profile-highlights li {
+    font-size: 1.1rem;
+    
+  }
+
+  .skills-container_about h2 {
+    padding: 0 1rem;
+  }
+
+  .skill-item {
+    width: 80px;
+    height: 40px;
+    font-size: 1.1rem;
   }
 }
