@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warehouse Management System | Esosa Johnson</title>
+        <link rel="stylesheet" href="../../style.css">
+        <link rel="stylesheet" href="../../mediaqueries.css">
+    </head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">
+                <img src="../../assets/letters.png" alt="Logo" class="logo-img" onclick="location.href='/'"></img>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="../../about/">About</a></li>
+                    <li><a href="../../projects/">Projects</a></li>
+                    <li><a href="../../contact/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <a href="/">
+                <img src="../../assets/letters.png" alt="Logo" class="logo-img">
+            </a>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="dropdown-menu">
+                    <li><a href="/" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="../../about/" onclick="toggleMenu()">About</a></li>
+                    <li><a href="../../projects/" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="../../contact/" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <div class="project-header">
+            <h1>Fingerprint-Based Attendance System</h1>
+        </div>
+
+        <script src="../../script.js"></script>
+    </body>
+</html>
