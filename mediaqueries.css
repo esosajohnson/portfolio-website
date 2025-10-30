@@ -73,8 +73,6 @@ html, body {
     justify-content: center;
   }
 
-  
-
   body {
     padding-top: var(--nav-height);
   }
@@ -257,5 +255,50 @@ html, body {
     width: 80px;
     height: 40px;
     font-size: 1.1rem;
+  }
+
+  .projects-section-description  {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .project-cards p,
+  .skills-used-grid {
+    padding-right: 2rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .projects-container {
+    padding: 0 0.5rem;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .project-cards h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-cards {
+    position: relative;
+    padding: 1.5rem 1rem 2rem;
+  }
+
+  .project-cards .btn {
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-top: 0.5em;
+    font-size: 1.1rem;
+    font-weight: 500;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .project-cards p,
+  .skills-used-grid {
+    padding-right: clamp(2rem, 6vw, 8rem);
   }
 }
