@@ -1142,3 +1142,16 @@ textarea:focus::placeholder {
     transform: none;
     margin-top: 1rem;
 }
+
+/* FINGERPRINT PROJECT PAGE STYLES */
+
+#fingerprint-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 7vh);
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
