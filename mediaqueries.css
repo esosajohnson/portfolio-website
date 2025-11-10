@@ -294,6 +294,40 @@ html, body {
     font-weight: 500;
     align-self: flex-end;
   }
+
+  #warehouse-project h1 {
+    font-size: 2rem;
+  }
+
+  #fingerprint-project h1 {
+    font-size: 2rem;
+  }
+
+  #ML-project h1 {
+    font-size: 2rem;
+  }
+
+  .project-overview h2,
+  .project-approach h2,
+  .project-features h2,
+  .project-skills-used h2,
+  .project-benefits h2,
+  .project-status h2,
+  .project-github-link h2,
+  .what-was-delivered h2 {
+    font-size: 1.7rem;
+  }
+
+  .project-overview p,
+  .project-approach p,
+  .project-features li,
+  .project-skills-used li,
+  .project-benefits li,
+  .project-status p,
+  .project-github-link p,
+  .what-was-delivered p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 1400px) {
