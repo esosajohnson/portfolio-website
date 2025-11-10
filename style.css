@@ -869,3 +869,276 @@ textarea:focus::placeholder {
     text-decoration-color: black;
     font-weight: 600;
 }
+
+/* WAREHOUSE PAGE STYLES */
+
+#warehouse-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 7vh);
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#warehouse-project h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: #555;
+    max-width:  1000px;
+}
+
+.project-overview {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-overview p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.project-overview h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-approach {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-approach p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.project-approach h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-features {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-features li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.project-features h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-features ul {
+    padding-left: 1.5rem;
+}
+
+.project-features li::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.project-skills-used {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-skills-used h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-skills-used ul {
+    padding-left: 1.5rem;
+}
+
+.project-skills-used li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.project-skills-used li::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.project-benefits {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-benefits h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-benefits ul {
+    padding-left: 1.5rem;
+}
+
+.project-benefits li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.project-benefits li::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.project-status {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-status h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-status p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.project-github-link {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    margin: 0 auto 2rem;
+}
+
+.project-github-link h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.project-github-link p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.project-github-link .btn {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+}
